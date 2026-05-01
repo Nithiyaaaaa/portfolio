@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nithiya B - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+    
+    <!-- Scroll Progress -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-bar"></div>
+    </div>
+
+    <div class="bg-animated">
+        <div class="blob blob-purple"></div>
+        <div class="blob blob-orange"></div>
+        <div class="noise"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">N<span>B.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+        <!-- Hero Section -->
+        <section id="home" class="section hero">
+            <div class="hero-content fade-in">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="bloom-text">NITHIYA B</h1>
+                <h2 class="role">I'm a <span class="typing-text"></span><span class="cursor-blink">|</span></h2>
+                <p class="summary">Adaptable and initiative-driven Software Development Engineer with strong communication, teamwork, and problem-solving skills. Quick to learn, self-motivated, and committed to growth and delivering high-quality results.</p>
+                <div class="cta-group">
+                    <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                    <a href="#projects" class="btn btn-secondary">View Work</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/B-NITHIYA" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:nithiyabaskarr@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/Nithiyaaaaa" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in">
+                <div class="atom-bouquet">
+                    <div class="orbit-wrapper orbit-1">
+                        <div class="electron electron-1">
+                            <div class="sakura-node">
+                                <div class="glass-cube">
+                                    <div class="face petal-1"></div>
+                                    <div class="face petal-2"></div>
+                                    <div class="face petal-3"></div>
+                                    <div class="face petal-4"></div>
+                                    <div class="face petal-5"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="orbit-wrapper orbit-2">
+                        <div class="electron electron-2">
+                            <div class="sakura-node">
+                                <div class="glass-cube">
+                                    <div class="face petal-1"></div>
+                                    <div class="face petal-2"></div>
+                                    <div class="face petal-3"></div>
+                                    <div class="face petal-4"></div>
+                                    <div class="face petal-5"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="orbit-wrapper orbit-3">
+                        <div class="electron electron-3">
+                            <div class="sakura-node">
+                                <div class="glass-cube">
+                                    <div class="face petal-1"></div>
+                                    <div class="face petal-2"></div>
+                                    <div class="face petal-3"></div>
+                                    <div class="face petal-4"></div>
+                                    <div class="face petal-5"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- About & Skills Section -->
+        <section id="about" class="section about">
+            <div class="section-header fade-in">
+                <h2>About & <span>Skills</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass-panel fade-in">
+                    <h3><i class="fas fa-user-graduate"></i> Education</h3>
+                    <div class="timeline-item">
+                        <h4>B.Tech in Artificial Intelligence & Data Science</h4>
+                        <span class="date">2023 - Present</span>
+                        <p>Sri Sairam Engineering College</p>
+                        <p class="highlight">CGPA: 8.81</p>
+                    </div>
+                </div>
+                
+                <div class="about-card glass-panel fade-in">
+                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                    <div class="skills-category">
+                        <h4>Languages</h4>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-label"><span>Python</span><span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-label"><span>Java</span><span>80%</span></div>
+                            <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-label"><span>C</span><span>75%</span></div>
+                            <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h4>Development</h4>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-label"><span>MERN Stack</span><span>85%</span></div>
+                            <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-label"><span>HTML / CSS / JS</span><span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+                        </div>
+                    </div>
+                    <div class="skills-category" style="margin-top: 2rem;">
+                        <h4>Databases & Tools</h4>
+                        <div class="tags"><span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">VS Code</span><span class="tag">Git</span><span class="tag">Postman</span></div>
+                    </div>
+                </div>
+
+                <div class="about-card glass-panel fade-in">
+                    <h3><i class="fas fa-brain"></i> Soft Skills & Interests</h3>
+                    <div class="tags alt-tags">
+                        <span class="tag">Critical Thinking</span>
+                        <span class="tag">Self-Learning</span>
+                        <span class="tag">Adaptability</span>
+                        <span class="tag">Team Player</span>
+                        <span class="tag">Presentation</span>
+                        <span class="tag">Networking</span>
+                    </div>
+                    
+                    <div class="skills-category" style="margin-top: 1.5rem;">
+                        <h4>Core Interests</h4>
+                        <div class="tags">
+                            <span class="tag">Web Design</span>
+                            <span class="tag">Data Structures & Algorithms</span>
+                            <span class="tag">API Integration</span>
+                            <span class="tag">Generative AI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience">
+            <div class="section-header fade-in">
+                <h2>Work <span>Experience</span></h2>
+            </div>
+            <div class="timeline" id="exp-timeline">
+                <div class="timeline-progress-bar" id="timeline-progress"></div>
+                
+                <div class="timeline-card glass-panel fade-in group">
+                    <div class="timeline-dot"></div>
+                    <div class="card-header">
+                        <h3>Full Stack Development Trainer <span>(Part Time)</span></h3>
+                        <span class="date">01/26 - Present</span>
+                    </div>
+                    <h4>PK Placement Services Ltd</h4>
+                    <p>Trained 50+ students in Full Stack Web Development, emphasizing clean code and problem-solving.</p>
+                </div>
+
+                <div class="timeline-card glass-panel fade-in group">
+                    <div class="timeline-dot"></div>
+                    <div class="card-header">
+                        <h3>Educational Chatbot Data Analyst Intern </h3>
+                        <span class="date">06/24 - 01/25</span>
+                    </div>
+                    <h4>Vebbox Software Solutions</h4>
+                    <div class="tech-stack">Python | Data Analysis | Web Scraping</div>
+                    
+                    <button class="expand-btn" type="button">View Responsibilities <i class="fas fa-chevron-down"></i></button>
+                    <div class="exp-details">
+                        <ul>
+                            <li>Designed data pipelines to support an educational chatbot by cleaning, analyzing, and structuring large datasets for meaningful insights.</li>
+                            <li>Developed automated data collection workflows using Python Scrapy.</li>
+                            <li>Collaborated with team members to improve data accuracy, processing efficiency, and overall chatbot performance.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="section-header fade-in">
+                <h2>Featured <span>Projects</span></h2>
+            </div>
+            
+            <div class="filter-controls fade-in">
+                <button class="btn filter-btn active" data-filter="all">All</button>
+                <button class="btn filter-btn" data-filter="ai">AI / ML</button>
+                <button class="btn filter-btn" data-filter="web">Web Dev</button>
+                <button class="btn filter-btn" data-filter="iot">IoT</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card glass-panel fade-in group" data-category="ai">
+                    <div class="project-content">
+                        <h3>AI-Driven Admission Mgmt & Faculty Tracking System</h3>
+                        <span class="role">Team Leader</span>
+                        <p>Implemented RFID-based faculty availability tracking using ESP32 and MFRC522 for real-time updates. Reduced administrative workload, improved information access efficiency in admission processes.</p>
+                        <div class="tech-stack">
+                            <span class="tag">React</span><span class="tag">RAG</span><span class="tag">SQLite</span><span class="tag">ESP32</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-action"><i class="fab fa-github"></i> Source</a>
+                            <a href="#" class="project-action"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel fade-in group" data-category="web">
+                    <div class="project-content">
+                        <h3>Commerce Management System</h3>
+                        <span class="role">Developer</span>
+                        <p>Built a full-stack application with REST APIs and JWT authentication to manage products, users, and orders efficiently. Implemented search, filtering, and pagination using optimized queries to enhance performance.</p>
+                        <div class="tech-stack">
+                            <span class="tag">MongoDB</span><span class="tag">Express.js</span><span class="tag">React.js</span><span class="tag">Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-action"><i class="fab fa-github"></i> Source</a>
+                            <a href="#" class="project-action"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel fade-in group" data-category="ai">
+                    <div class="project-content">
+                        <h3>Sentiment Analysis Pipeline</h3>
+                        <span class="role">Independent Developer</span>
+                        <p>Created a robust Natural Language Processing pipeline deploying HuggingFace transformers via a FastAPI backend to predict customer sentiment streams in real-time. Achieved 94% accuracy with low latency scaling.</p>
+                        <div class="tech-stack">
+                            <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">NLP</span><span class="tag">Transformers</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-action"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel fade-in group" data-category="iot">
+                    <div class="project-content">
+                        <h3>Smart IoT Weather Monitoring System</h3>
+                        <span class="role">Hardware Integration Lead</span>
+                        <p>Built a comprehensive hardware to cloud pipeline monitoring multi-zonal humidity and temperature factors. Embedded system sends data directly to cloud using secure MQTT architecture.</p>
+                        <div class="tech-stack">
+                            <span class="tag">IoT</span><span class="tag">ESP32</span><span class="tag">MQTT</span><span class="tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-action"><i class="fas fa-external-link-alt"></i> Live View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Certifications -->
+        <section id="achievements" class="section achievements">
+            <div class="section-header fade-in">
+                <h2>Achievements & <span>Certifications</span></h2>
+            </div>
+            
+            <div class="split-grid">
+                <!-- Achievements -->
+                <div class="glass-panel fade-in list-panel">
+                    <h3><span class="material-icons" style="color:var(--primary); font-size:2rem; margin-right:10px;">military_tech</span> Key Achievements</h3>
+                    <ul class="styled-list">
+                        <li>
+                            <div class="item-title"><span class="material-icons text-primary">emoji_events</span> <span><strong>Best Student Performer</strong> - 2024-25, AI & DS.</span></div>
+                            <p class="crisp-desc">Recognized for phenomenal academic excellence and outstanding departmental contributions.</p>
+                        </li>
+                        <li>
+                            <div class="item-title"><span class="material-icons text-secondary">code</span> <span><strong>Won 3 National Coding Competitions</strong></span></div>
+                            <p class="crisp-desc">Secured top placements by effectively utilizing optimal algorithms under strict time constraints.</p>
+                        </li>
+                        <li>
+                            <div class="item-title"><span class="material-icons text-primary">groups</span> <span><strong>Coordinator of AIRO 4.0</strong></span></div>
+                            <p class="crisp-desc">Managed a large core team to execute a highly successful multi-college technical symposium.</p>
+                        </li>
+                        <li>
+                            <div class="item-title"><span class="material-icons text-secondary">event_available</span> <span><strong>Organizer of ICSCT’24</strong></span></div>
+                            <p class="crisp-desc">Handled logistics and keynote scheduling for an international hybrid-mode conference.</p>
+                        </li>
+                        <li>
+                            <div class="item-title"><span class="material-icons text-primary">handshake</span> <span><strong>Volunteered at IEEE Eta Kappa Nu</strong></span></div>
+                            <p class="crisp-desc">Drove community engagement during the prestigious IEEE Genesis 2.0 technical showcase.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Certifications -->
+                <div class="glass-panel fade-in list-panel">
+                    <h3><span class="material-icons" style="color:var(--secondary); font-size:2rem; margin-right:10px;">verified</span> Certifications</h3>
+                    <div class="cert-grid">
+                        <div class="cert-item">
+                            <div class="cert-header"><span class="cert-org">Intel</span> <strong>Gen AI Initiation</strong></div>
+                            <p class="crisp-desc list-margin">Foundations of LLMs and practical prompt engineering.</p>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-header"><span class="cert-org">NPTEL</span> <strong>DSA Using Python</strong></div>
+                            <p class="crisp-desc list-margin">Mastered core Data Structures and runtime pipeline optimizations.</p>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-header"><span class="cert-org">NPTEL</span> <strong>Advanced Architecture</strong></div>
+                            <p class="crisp-desc list-margin">Explored parallel computing and memory hierarchy optimizations.</p>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-header"><span class="cert-org">NPTEL</span> <strong>ML Intro - IITKGP</strong></div>
+                            <p class="crisp-desc list-margin">Mathematical depth in learning paradigms and predictive inferences.</p>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-header"><span class="cert-org">Cisco</span> <strong>Intro to Modern AI</strong></div>
+                            <p class="crisp-desc list-margin">Deep dive into neural frameworks and robust networking ecosystems.</p>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-header"><span class="cert-org">IBM</span> <strong>1M1B Future Shapes</strong></div>
+                            <p class="crisp-desc list-margin">Integrated AI-centric structures dynamically within cloud pipelines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="section-header fade-in">
+                <h2>Get In <span>Touch</span></h2>
+                <p>Have a question or want to work together? Leave your details and message below.</p>
+            </div>
+            <div class="contact-container glass-panel no-tilt fade-in">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9176966788</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>nithiyabaskarr@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Chennai, India</span>
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Web3Forms Access Key: Get yours for free at https://web3forms.com/ -->
+                    <input type="hidden" name="access_key" value="2018b568-f226-48ec-9f6b-87e3ddea7ba9">
+                    <!-- Prevent Spam -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <input type="hidden" name="subject" value="New message from portfolio viewer!">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2026 Nithiya B. Built with <i class="fas fa-heart" style="color:var(--secondary-color)"></i></p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
